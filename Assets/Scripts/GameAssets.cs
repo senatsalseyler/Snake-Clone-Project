@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class GameAssets : MonoBehaviour
 {
-    public Sprite snakeHeadSprite;
-
     public static GameAssets i;
     
     private void Awake()
@@ -13,4 +11,5 @@ public class GameAssets : MonoBehaviour
         i = this;
 
     }
+    public Sprite snakeHeadSprite;
 }
