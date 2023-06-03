@@ -6,11 +6,11 @@ public class GameAssets : MonoBehaviour
 {
     public Sprite snakeHeadSprite;
 
-    public static GameAssets instance;
+    public static GameAssets i;
     
     private void Awake()
     {
-        instance = this;
+        i = this;
 
     }
 }
